@@ -1,17 +1,8 @@
-# The End of Marae
-
-
-
-#### 	[How "Marae" might one day be built](#the-tech)
-
 #### 	[Introduction](#intro)
-
+#### 	[How "Marae" might one day be built](#the-tech)
 #### 	[Marae's Why](#the-why)
-
 #### 	[The Research Behind It All](#the-research)
-
 #### 	[Our Strategy](#the-plan)
-
 #### 	[My Road Ahead](#what's-next)
 
 ### Intro
@@ -54,7 +45,7 @@ The AR Cloud, unfortunately, has the potential to be the world's most sophistica
 
 
 
-<img src="/Users/juicy/Downloads/IMG_2788.jpg" alt="IMG_2788" style="zoom:20%;" />
+<img src="/assets/img/apple_nyc.jpg" alt="pic_apple_billboard_nyc" style="zoom:20%;" />
 
 
 
