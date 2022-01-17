@@ -44,10 +44,7 @@ Through all of these stages, [the medium has affected the message](https://mcluh
 The AR Cloud, unfortunately, has the potential to be the world's most sophisticated, and intrusive, surveillance and reality distortion apparatus ever created. As I describe below in the [technical](#the-tech) section, AR experiences are reliant on a continuous video feed taken from a user's perspective. That, combined with audio mic features which some companies are excitedly planning, will put many of us in an unprecedented position of vulnerability. If there's anything the past decade of computer security should have taught us, it's that absolutely anything can happen to your data once it's no longer on your device. [Leaks](https://www.thehindu.com/sci-tech/technology/internet/explainer-how-facebooks-recent-data-breach-affect-its-users/article34324019.ece), and [abuse](https://www.nytimes.com/2014/07/21/us/politics/edward-snowden-at-nsa-sexually-explicit-photos-often-shared.html), are sure to come about. It's only a matter of time. What we can control, is how we use these new technologies, and hold the relevant authorities accountable when such issues do inevitably come about.
 
 
-
-<img src="/assets/img/apple_nyc.jpg" alt="pic_apple_billboard_nyc" style="zoom:20%;" />
-
-
+![pic_apple_billboard_nyc]({{site.baseurl}}/assets/img/apple_nyc.jpg){:class="img-responsive" zoom="20%"}
 
 Writing this piece in NYC, I looked up to find Apple peaking down back at me. Are we ready for a world where everyone will have a camera rolling?
 
@@ -73,7 +70,7 @@ Marae's journey may be coming to an end, but I'm convinced as ever that our tech
 
 In the simplest of terms, our plan was to build a couple game engine SDKs, a handful of thin clients, and between them, a cluster of cloud localization, hosting, and streaming services. From [the deck](https://docs.google.com/presentation/d/1x97mjAHPYPdDmhcHgSaFhykL9nB9ApAmi2Ql2XQ49sY/edit?usp=sharing):
 
-![](/Users/juicy/Downloads/Marae.jpg)
+![]({{site.baseurl}}/assets/img/Marae.jpg)
 
 As a cross-platform solution, we'd connect content creators on the most popular ecosystems with owners of the best AR hardware. From the jump, this would put us in position to maximize both the reach of our creators and library for our users. As a streaming service, we could even further magnify this network effect. Instead of one single experience per app (like Pokémon Go), we'd surface a theoretically infinite library of content to the end user (like YouTube or Netflix). This was a key part of our broader [strategy](#the-plan).
 
