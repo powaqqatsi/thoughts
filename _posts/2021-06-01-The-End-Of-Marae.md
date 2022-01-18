@@ -44,7 +44,7 @@ Through all of these stages, [the medium has affected the message](https://mcluh
 The AR Cloud, unfortunately, has the potential to be the world's most sophisticated, and intrusive, surveillance and reality distortion apparatus ever created. As I describe below in the [technical](#the-tech) section, AR experiences are reliant on a continuous video feed taken from a user's perspective. That, combined with audio mic features which some companies are excitedly planning, will put many of us in an unprecedented position of vulnerability. If there's anything the past decade of computer security should have taught us, it's that absolutely anything can happen to your data once it's no longer on your device. [Leaks](https://www.thehindu.com/sci-tech/technology/internet/explainer-how-facebooks-recent-data-breach-affect-its-users/article34324019.ece), and [abuse](https://www.nytimes.com/2014/07/21/us/politics/edward-snowden-at-nsa-sexually-explicit-photos-often-shared.html), are sure to come about. It's only a matter of time. What we can control, is how we use these new technologies, and hold the relevant authorities accountable when such issues do inevitably come about.
 
 
-![pic_apple_billboard_nyc]({{site.baseurl}}/assets/img/apple_nyc.jpg){:class="img-responsive" zoom="30%"}
+![pic_apple_billboard_nyc]({{site.baseurl}}/assets/img/apple_nyc.jpg){:class="img-responsive" zoom="40%"}
 
 Writing this piece in NYC, I looked up to find Apple peaking down back at me. Are we ready for a world where everyone will have a camera rolling?
 
@@ -80,7 +80,7 @@ In the world of Computer Vision, SLAM, and AR, localization is the process of de
 
 To illustrate this, consider how a typical first person video game works - you provide physical input to a controller, which moves your character (altering their virtual "pose"), and then a new, appropriate perspective is shown/rendered to you. These steps are seamless and trivial in a pristine, virtual sandbox, but become much more complicated in AR as we interweave the digital with the physical. Tracking your perspective, AR platforms rely on various sensor inputs and state-of-the-art methods to keep the virtual world aligned with the physical in real-time. Errors, or slow or laggy computation here, can result in jitter at best, or a downright incoherent experience at worst.
 
-Today, the problem of localization has been solved in some domains, but not others. As one might imagine, a space is easier to localize within if it's small, static, or "well-defined" (has distinct features which can be detected consistently). Because of this, techniques exist to localize [indoors](https://www.arway.app) and in [dense, urban environments](https://youtu.be/4jA1RM5_WMc), but remain elusive in large natural spaces, such as public parks and college quads. In these spaces, it's the non-descript natural shapes of trees and shrubs, as well as lighting and seasonal changes, which often cause difficulty.
+Today, the problem of localization has been solved in some domains, but not others. As one might imagine, a space is easier to localize within if it's small, static, or "well-defined" (has distinct features which can be detected consistently). Because of this, techniques exist to localize [indoors](https://www.arway.app) and in [dense, urban environments](https://youtu.be/4jA1RM5_WMc), but remain elusive in large natural spaces, such as public parks and college quads. In these spaces, it's the non-descript natural shapes of trees and shrubs, as well as lighting and seasonal changes, which often cause difficulty.
 
 "But what about [Pokémon Go](https://youtu.be/E7nwr6sA6Es) and other [AR games](https://happygiant.com/projects/quasar-arena) I've seen played outside?"
 
@@ -156,7 +156,7 @@ Quoted below is a brief exerpt of the STTR grant proposal I was pitching Compute
 
 Visually, I was proposing a packed 3D grid of points atop the relevant space, with each point representing the position of a camera having full 360 degree coverage.
 
-![Coverage Grid]({{site.baseurl}}/assets/img/NicePng_3d-grid-png_4066144.png){:class="img-responsive" zoom="45%"}
+![Coverage Grid]({{site.baseurl}}/assets/img/NicePng_3d-grid-png_4066144.png){:class="img-responsive" zoom="65%"}
 
 ![360 Image Example]({{site.baseurl}}/assets/img/360-pic.jpeg){:class="img-responsive" zoom="75%"}
 
@@ -165,7 +165,7 @@ In actuality, there'd be a handful of separate images taken at each camera posit
 With dense enough coverage, we would expect to be able to localize anywhere within a space. Here's where a crucial question of the research comes up though. How dense, is dense enough? This is all dependent on a couple factors:
 
 - Desired accuracy of system: <10cm
-- Accuracy of SegNet ([Panoptic Quality Metric](https://medium.com/@danielmechea/panoptic-segmentation-the-panoptic-quality-metric-d69a6c3ace30)): ~0.6
+- Accuracy of SegNet ([Panoptic Quality Metric](https://medium.com/@danielmechea/panoptic-segmentation-the-panoptic-quality-metric-d69a6c3ace30)): ~0.6
 - Size of search space (spheroid shaped): <2m^2
 
 When receiving a new input image, we need to have some sense of where in the space it was actually taken. Having a good estimate of this can reduce complexity and improve runtime. In our case, we'd use GPS and historical data to define our search space. This estimate informs us of the relevant set of ground truth images (keyframes) to compare against. Passing our input image through the same SegNet we used on our keyframes, we're left with a handful of similarly labeled images taken at slightly different vantages. We can then perform an alignment procedure to determine how our new image fits in *relatively* with the keyframes, and *globally* within our coordinate system.
@@ -205,7 +205,7 @@ There's a B-School [concept](https://www.cgma.org/resources/tools/essential-tool
 
 As long as the Seneca could convincingly tilt the scale, they'd be safe. Marae would have similar positioning, but with the crucial addition of a virtuous growth cycle.
 
-This strategic vision, and in turn, Marae's ability to fulfill my [why](#the-why), fell apart under the growing suspicion that large, multi-user experiences very likely won't propel the AR Cloud's adoption, or even be a large portion of its applications. The vast majority of AR content will be much like the 2D apps we engage with today - private and location-agnostic (meaning that the experience is not affected by your exact location). These are the messengers, social feeds, browsers, and productivity and creative tools which have come to shape our digital reality today. These experiences have no dependency on a location-precise, multi-user AR platform. And as for the multi-user experiences which do emerge in AR, there's pretty good reason to think that many of them [won't need park-scale location-precision](https://nianticlabs.com/blog/lightship) either. Point being, that the long-term strategic value of Marae is a tiny fraction of what [I initially believed](https://docs.google.com/document/d/19Oa3Xd2HwhufqlXeOKzTku1_BuvDvmSPLcKlGGviY0Q/edit?usp=sharing).
+This strategic vision, and in turn, Marae's ability to fulfill my [why](#the-why), fell apart under the growing suspicion that large, multi-user experiences very likely won't propel the AR Cloud's adoption, or even be a large portion of its applications. The vast majority of AR content will be much like the 2D apps we engage with today - private and location-agnostic (meaning that the experience is not affected by your exact location). These are the messengers, social feeds, browsers, and productivity and creative tools which have come to shape our digital reality today. These experiences have no dependency on a location-precise, multi-user AR platform. And as for the multi-user experiences which do emerge in AR, there's pretty good reason to think that many of them [won't need park-scale location-precision](https://nianticlabs.com/blog/lightship) either. Point being, that the long-term strategic value of Marae is a tiny fraction of what [I initially believed](https://docs.google.com/document/d/19Oa3Xd2HwhufqlXeOKzTku1_BuvDvmSPLcKlGGviY0Q/edit?usp=sharing).
 
 If Marae isn't powering the lion's share of AR and becoming a Super App, it won't have the leverage needed to grow between behemoths. Eventually, it'll be lost to market forces - either via early Exit or getting pushed out. Neither of these outcomes excite me.
 
@@ -235,7 +235,7 @@ In the spirit of openness, I thought it'd be interesting to share some of the ra
 
   - a friendly [read](https://news.artnet.com/art-world/technology-transforming-mayan-archaeology-1558456), an [academic piece](https://news.artnet.com/app/news-upload/2019/05/Canuto-et-al.-2018.pdf), and a [talk](https://youtu.be/1uzqIcK6Rok) on the Pacunam Lidar Initiative
 
-![Mayan Ruins Lidar]({{site.baseurl}}/assets/img/Screen Shot 2021-06-12 at 3.13.46 AM.png){:class="img-responsive" zoom="50%"}
+![Mayan Ruins Lidar]({{site.baseurl}}/assets/img/Screen Shot 2021-06-12 at 3.13.46 AM.png){:class="img-responsive" zoom="70%"}
 
 - Go back to [Mesa Verde](https://www.livescience.com/27360-mesa-verde.html), study the layout and history, write about a place which fascinates me - a tiny society lost to the chaotic sands of time - both literally and figuratively
 
