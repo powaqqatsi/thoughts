@@ -44,7 +44,7 @@ Through all of these stages, [the medium has affected the message](https://mcluh
 The AR Cloud, unfortunately, has the potential to be the world's most sophisticated, and intrusive, surveillance and reality distortion apparatus ever created. As I describe below in the [technical](#the-tech) section, AR experiences are reliant on a continuous video feed taken from a user's perspective. That, combined with audio mic features which some companies are excitedly planning, will put many of us in an unprecedented position of vulnerability. If there's anything the past decade of computer security should have taught us, it's that absolutely anything can happen to your data once it's no longer on your device. [Leaks](https://www.thehindu.com/sci-tech/technology/internet/explainer-how-facebooks-recent-data-breach-affect-its-users/article34324019.ece), and [abuse](https://www.nytimes.com/2014/07/21/us/politics/edward-snowden-at-nsa-sexually-explicit-photos-often-shared.html), are sure to come about. It's only a matter of time. What we can control, is how we use these new technologies, and hold the relevant authorities accountable when such issues do inevitably come about.
 
 
-![pic_apple_billboard_nyc]({{site.baseurl}}/assets/img/apple_nyc.jpg){:class="img-responsive" zoom="20%"}
+![pic_apple_billboard_nyc]({{site.baseurl}}/assets/img/apple_nyc.jpg){:class="img-responsive" zoom="30%"}
 
 Writing this piece in NYC, I looked up to find Apple peaking down back at me. Are we ready for a world where everyone will have a camera rolling?
 
@@ -70,7 +70,7 @@ Marae's journey may be coming to an end, but I'm convinced as ever that our tech
 
 In the simplest of terms, our plan was to build a couple game engine SDKs, a handful of thin clients, and between them, a cluster of cloud localization, hosting, and streaming services. From [the deck](https://docs.google.com/presentation/d/1x97mjAHPYPdDmhcHgSaFhykL9nB9ApAmi2Ql2XQ49sY/edit?usp=sharing):
 
-![]({{site.baseurl}}/assets/img/Marae.jpg)
+![Marae's Arch]({{site.baseurl}}/assets/img/Marae.jpg){:class="img-responsive" zoom="30%"}
 
 As a cross-platform solution, we'd connect content creators on the most popular ecosystems with owners of the best AR hardware. From the jump, this would put us in position to maximize both the reach of our creators and library for our users. As a streaming service, we could even further magnify this network effect. Instead of one single experience per app (like Pokémon Go), we'd surface a theoretically infinite library of content to the end user (like YouTube or Netflix). This was a key part of our broader [strategy](#the-plan).
 
@@ -92,13 +92,13 @@ To do this, we'd pair off-the-shelf visual-inertial odometry with proprietary se
 
 I'll save the details of this research for it's respective section below, but will give a brief overview here to round out this section from an engineering perspective. Semantic re-localization is a technique where you take an input image, derive some semantic meaning about it, and determine where (in a pre-mapped space) you are. In our case, this means labeling each and every pixel in an image with its class of object. Here's an example image, which has been labeled with the classes "vehicle", "road", "sidwalk", "pole", "vegetation", etc. [[Fully Convolutional Networks for Panoptic Segmentation](https://arxiv.org/pdf/2012.00720.pdf)]
 
-![](/Users/juicy/Desktop/Screen Shot 2021-04-21 at 2.10.28 PM.png)
+![Cityscapes Example]({{site.baseurl}}/assets/img/Screen Shot 2021-04-21 at 2.10.28 PM.png){:class="img-responsive" zoom="30%"}
 
 Semantic-based approaches span the fast-approaching horizon of localization and mapping technologies. With resilience to the various superficial changes which can occur in a scene visually, they'll one day bring accuracy and robustness to localization in traditionally difficult spaces. So far, these techniques have only just started to be formalized and applied [[Semantic SLAM](https://hal.archives-ouvertes.fr/hal-02391499/file/ICAR19_0187_FI.pdf)] [[Semantic Visual Localization](https://arxiv.org/pdf/1712.05773.pdf)]. Due to this, we have only scant empirical evidence to suggest exactly what sort of performance we should expect in the near future. My intuition though (reinforced by chats with experts), is that we could get re-localization accuracy down to 10 cm or less at a 2 Hz runtime. 
 
 This system, combined with VIO, would give us a nice upper-bound of our pose error over time.
 
-<img src="/Users/juicy/Desktop/Screen Shot 2021-06-16 at 7.03.48 PM.png" style="zoom:50%;" />
+![Absolute Trajectory Error Naive]({{site.baseurl}}/assets/img/Screen Shot 2021-06-16 at 7.03.48 PM.png){:class="img-responsive" zoom="50%"}
 
 Precisely, the upper-bound ATE is defined in this system as: 
 
@@ -106,11 +106,11 @@ Precisely, the upper-bound ATE is defined in this system as:
 
 Think this looks a little choppy though? Luckily, we could actually smooth the estimated pose in real-time to save the user from any jitter.
 
-<img src="/Users/juicy/Desktop/Screen Shot 2021-06-16 at 7.01.10 PM.png" style="zoom:50%;" />
+![Absolute Trejectory Error Smoothed]({{site.baseurl}}/assets/img/Screen Shot 2021-06-16 at 7.01.10 PM.png){:class="img-responsive" zoom="50%"}
 
 This is the closest I came to an architecture diagram :)
 
-![](/Users/juicy/Downloads/Marae_loc.jpg)
+![Marae's Localization Engine]({{site.baseurl}}/assets/img/Marae_loc.jpg){:class="img-responsive" zoom="20%"}
 
 (1) Illustrates the local VIO process on device
 
@@ -140,11 +140,11 @@ The [rollout of 5G](https://newsroom.cisco.com/press-release-content?type=webcon
 
 At the forefront of this wave is Amazon's partnership with Verizon to bring 5G connectivity to AWS. Today, developers can rent location-specific instances (servers) on both the Local Zones and Wavelength AWS offerings. These use Verizon's Ultra Wideband [coverage](https://www.verizon.com/coverage-map/), which is coming along rapidly. New documentation claims [12 cities](https://aws.amazon.com/about-aws/global-infrastructure/localzones/locations/) are expected to be set up (partially) by the end of 2021. Important for us, was the rollout on the Boston Common:
 
-![](/Users/juicy/Desktop/Screen Shot 2021-05-06 at 1.53.03 PM.png)
+![5G Rollout]({{site.baseurl}}/assets/img/Screen Shot 2021-05-06 at 1.53.03 PM.png){:class="img-responsive" zoom="20%"}
 
 Around the country, we saw target spaces gaining coverage. Here's Los Angeles State Historic Park:
 
-![](/Users/juicy/Desktop/Screen Shot 2021-04-29 at 4.04.51 PM.png)
+![LA State Park 5G Coverage]({{site.baseurl}}/assets/img/Screen Shot 2021-04-29 at 4.04.51 PM.png){:class="img-responsive" zoom="20%"}
 
 ### The Research
 
@@ -156,7 +156,9 @@ Quoted below is a brief exerpt of the STTR grant proposal I was pitching Compute
 
 Visually, I was proposing a packed 3D grid of points atop the relevant space, with each point representing the position of a camera having full 360 degree coverage.
 
-<img src="/Users/juicy/Downloads/NicePng_3d-grid-png_4066144.png" alt="NicePng_3d-grid-png_4066144" style="zoom:45%;" />                    <img src="/Users/juicy/Downloads/360-pic.jpeg" alt="360-pic" style="zoom: 75%;" />  
+![Coverage Grid]({{site.baseurl}}/assets/img/NicePng_3d-grid-png_4066144.png){:class="img-responsive" zoom="45%"}
+
+![360 Image Example]({{site.baseurl}}/assets/img/360-pic.jpeg){:class="img-responsive" zoom="75%"}
 
 In actuality, there'd be a handful of separate images taken at each camera position. These might then be stitched together and manipulated to simulate any vantage point, like Google Maps. All of these photos would be passed through a SegNet, described above in the [tech](#the-tech) section, which would semantically annotate them.
 
@@ -168,7 +170,8 @@ With dense enough coverage, we would expect to be able to localize anywhere with
 
 When receiving a new input image, we need to have some sense of where in the space it was actually taken. Having a good estimate of this can reduce complexity and improve runtime. In our case, we'd use GPS and historical data to define our search space. This estimate informs us of the relevant set of ground truth images (keyframes) to compare against. Passing our input image through the same SegNet we used on our keyframes, we're left with a handful of similarly labeled images taken at slightly different vantages. We can then perform an alignment procedure to determine how our new image fits in *relatively* with the keyframes, and *globally* within our coordinate system.
 
-<img src="/Users/juicy/Desktop/Screen Shot 2021-06-15 at 3.03.07 PM.png" style="zoom:70%;" />                     <img src="/Users/juicy/Desktop/Screen Shot 2021-04-21 at 2.09.55 PM.png" style="zoom:67%;" />
+![Global Keyframe Alignment]({{site.baseurl}}/assets/img/Screen Shot 2021-06-15 at 3.03.07 PM.png){:class="img-responsive" zoom="70%"}
+![Local Keyframe Alignment]({{site.baseurl}}/assets/img/Screen Shot 2021-04-21 at 2.09.55 PM.png){:class="img-responsive" zoom="67%"}
 
 [Autonomous drones](https://www.skydio.com/), and [view synthesis](https://www.matthewtancik.com/nerf) techniques could help tremendously in increasing the density of this ground truth keyframe graph. Idea being, that this would in turn boost overall system accuracy.
 
@@ -232,7 +235,7 @@ In the spirit of openness, I thought it'd be interesting to share some of the ra
 
   - a friendly [read](https://news.artnet.com/art-world/technology-transforming-mayan-archaeology-1558456), an [academic piece](https://news.artnet.com/app/news-upload/2019/05/Canuto-et-al.-2018.pdf), and a [talk](https://youtu.be/1uzqIcK6Rok) on the Pacunam Lidar Initiative
 
-    <img src="/Users/juicy/Desktop/Screen Shot 2021-06-12 at 3.13.46 AM.png" style="zoom:50%;" />
+![Mayan Ruins Lidar]({{site.baseurl}}/assets/img/Screen Shot 2021-06-12 at 3.13.46 AM.png){:class="img-responsive" zoom="50%"}
 
 - Go back to [Mesa Verde](https://www.livescience.com/27360-mesa-verde.html), study the layout and history, write about a place which fascinates me - a tiny society lost to the chaotic sands of time - both literally and figuratively
 

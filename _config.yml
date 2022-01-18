@@ -21,7 +21,7 @@
 title: Powaqqatsi
 email: jason.natale.creates@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Piecing together a worldview which I believe is needed, by outlining my fear and discovering my hope
+  Piecing together a worldview I believe is needed, by outlining my fear and discovering my hope
 baseurl: "/thoughts" # the subpath of your site, e.g. /blog
 url: "https://powaqqatsi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
