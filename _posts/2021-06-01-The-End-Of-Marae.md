@@ -46,7 +46,7 @@ The AR Cloud, unfortunately, has the potential to be the world's most sophistica
 
 ![pic_apple_billboard_nyc]({{site.baseurl}}/assets/img/apple_nyc.jpg){:class="img-responsive" zoom="40%"}
 
-Writing this piece in NYC, I looked up to find Apple peaking down back at me. Are we ready for a world where everyone will have a camera rolling?
+Writing this piece in NYC, I looked up to find Apple peeking down back at me. Are we ready for a world where everyone will have a camera rolling?
 
 I think that the hyper-realism of this new, immersive reality will be shocking to some as well. We've never been face-to-face with [artificial humans](https://youtu.be/S3F1vZYpH8c) before, so I'm sure there'll be an uptick of double takes in the future. Maybe we'll even have a culturally acceptable "Turing test" of sorts, to verify each others humanity. These digital people will be great substitutes for real ones in a number of sectors which are hard to visually automate. Kind of like a scarecrow in the field, virtual security guards may be published to stores across the globe to deter theft and mischief.
 
