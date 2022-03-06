@@ -54,7 +54,7 @@ Simulating this model over the full spectrum of possible strategies, we can find
 
 ![graph1]({{site.baseurl}}/assets/img/cult_conun_graph1.png){:class="img-responsive" zoom="20%"}
 
-Our optimal is somewhat of a plateau, with strategies ![prob range]({{site.baseurl}}/assets/img/cult_conun_prob_range.png){:class="img-responsive" zoom="2%"}  yielding very similar results and a fairly steep drop-off of survival rates outside of that zone. Testing out different g_0 values, we can see similar forms emerging. 
+Our optimal is somewhat of a plateau, with strategies `0.2 <= p<sub>n</sub> <= 0.4` yielding very similar results and a fairly steep drop-off of survival rates outside of that zone. Testing out different g_0 values, we can see similar forms emerging. 
 
 ![graph2]({{site.baseurl}}/assets/img/cult_conun_graph2.png){:class="img-responsive" zoom="20%"}
 ![graph3]({{site.baseurl}}/assets/img/cult_conun_graph3.png){:class="img-responsive" zoom="20%"}
