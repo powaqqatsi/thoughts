@@ -38,7 +38,7 @@ For a rational actor seeking grain (read “wealth”) maximization, finding an 
 
 ![expected value]({{site.baseurl}}/assets/img/expected_value.png){:class="img-responsive" zoom="5%"}
 
-If ![expected inequality]({{site.baseurl}}/assets/img/expected_inequality.png){:class="img-responsive" zoom="200%"}, then an optimal strategy would be to store all of the grain, otherwise the grain should be used fully for cultivation. Of course, losing the entirety of one’s grain in a poor harvest would be painful. But, it wouldn’t necessarily be a death sentence either. Individuals engaged in larger communities could have had the fallback option of trading with neighbors when times were rough.
+If `P(Y=1)m <= 1`, then an optimal strategy would be to store all of the grain, otherwise the grain should be used fully for cultivation. Of course, losing the entirety of one’s grain in a poor harvest would be painful. But, it wouldn’t necessarily be a death sentence either. Individuals engaged in larger communities could have had the fallback option of trading with neighbors when times were rough.
 
 While large harvests, and even larger stockpiles, likely excited our ancestors, an even more compelling communal objective would have been the maximization of their likelihood of survival as a group. Formally speaking, survival entails that an isolated society continually maintain an amount of grain above zero. We can call this the “survival clause”:
 
@@ -54,7 +54,7 @@ Simulating this model over the full spectrum of possible strategies, we can find
 
 ![graph1]({{site.baseurl}}/assets/img/cult_conun_graph1.png){:class="img-responsive" zoom="20%"}
 
-Our optimal is somewhat of a plateau, with strategies `0.2 <= p<sub>n</sub> <= 0.4` yielding very similar results and a fairly steep drop-off of survival rates outside of that zone. Testing out different g_0 values, we can see similar forms emerging. 
+Our optimal is somewhat of a plateau, with strategies `0.2 <= p_n <= 0.4` yielding very similar results and a fairly steep drop-off of survival rates outside of that zone. Testing out different g_0 values, we can see similar forms emerging. 
 
 ![graph2]({{site.baseurl}}/assets/img/cult_conun_graph2.png){:class="img-responsive" zoom="20%"}
 ![graph3]({{site.baseurl}}/assets/img/cult_conun_graph3.png){:class="img-responsive" zoom="20%"}
@@ -63,7 +63,7 @@ Our optimal is somewhat of a plateau, with strategies `0.2 <= p<sub>n</sub> <= 0
 
 As the starting grain supply increases, our optimal plateau shifts further to the left with an ever increasing survival rate. The width of these plateaus remain relatively thin though, at around 10-20%.
 
-If this model is to be trusted as an approximation of reality, then the ancients had a serious problem on their hands. Since ![expected yield inequality]({{site.baseurl}}/assets/img/expected_yield_inequality.png){:class="img-responsive" zoom="2%"}, an individual seeking more grain (read “wealth”) would have been incentivized to plant all of their grain. As we can see above though, communities prioritizing sustained survival would have needed much lower planting rates. This wide gulf in optimal behavior manifests a textbook [coordination problem](https://conceptually.org/concepts/coordination-problems), where leaving everyone to act on their own self-interest produces a worse outcome for all.  Problems like these make strong cases for centralized and cooperative decision making. That is, communities coming together to determine their own collective course of action.
+If this model is to be trusted as an approximation of reality, then the ancients had a serious problem on their hands. Since `P(Y=1)m > 1`, an individual seeking more grain (read “wealth”) would have been incentivized to plant all of their grain. As we can see above though, communities prioritizing sustained survival would have needed much lower planting rates. This wide gulf in optimal behavior manifests a textbook [coordination problem](https://conceptually.org/concepts/coordination-problems), where leaving everyone to act on their own self-interest produces a worse outcome for all.  Problems like these make strong cases for centralized and cooperative decision making. That is, communities coming together to determine their own collective course of action.
 
 Historically speaking, plenty of societies have undermined individual agricultural interests. May this have been for a collective good? Ancient Egypt had intensely socialized agricultural production, with government bureaucrats directing farmers/serfs on what quantities of which crops to plant where. And when the yield came, what price it should even be sold at. In a different form, we can see the Israelis in the Old Testament exhibit similarly communal behavior. The second chapter in what amounts to be their very first codified book of law, Leviticus, is dedicated to describing grain offerings. Later in Leviticus it is ordered that Israelis, “bring the first sheaf of your harvest to the priest...”, and seven weeks after that, “present a new grain offering...” (Leviticus 23) Probably the most staggering of anti-competitive, communal decisions which the Ancient Israelis made though was the “sabbatical” year they gave their farmland. Once every seven years, they decided to give their lands a complete rest (Leviticus 25). For the individual land owner, it must’ve been tempting to plant and disrupt these quiet, but lucrative, grain markets. Unified though as a community, these policies likely enhanced yield consistency for all.
 
@@ -93,11 +93,11 @@ Did the rise of agriculture actually bring about an existential conflict of inte
 
 # Variables:
 
-![r value]({{site.baseurl}}/assets/img/cult_conun_r.png){:class="img-responsive" zoom="2%"} ; rate of decay for traditionally stored grains in tropical countries [1]
+`r = 0.05` ; rate of decay for traditionally stored grains in tropical countries [1]
 
-![m value]({{site.baseurl}}/assets/img/cult_conun_m.png){:class="img-responsive" zoom="2%"} ; the most time-consuming of parameters to deduce – 
+`m = 8.8` ; the most time-consuming of parameters to deduce – 
 (seed yield/ plant of Triticum vulgare) * (typical germination rate of Triticum vulgare) * (grain yield ratio of Triticum boeoticum : Triticum vulgare) = (110 seeds/plant [2]) * (.8 plants/seed [2]) * (.1 seeds/ seed [3]) ;  Note: Triticum boeoticum is an ancient wheat known as “einkorn”, and Triticum vulgare is modern common wheat
 
-![prob yield]({{site.baseurl}}/assets/img/cult_conun_prob_yield.png){:class="img-responsive" zoom="2%"} ; conservatively high estimate given two facts: over the past ~1,000 years, 29% of the Mediterranean basin experienced drought any given year [4], and 36% of years produce no harvest in regions of Northern Mesopotamia [5]
+`P(Y=1) = 0.75` ; conservatively high estimate given two facts: over the past ~1,000 years, 29% of the Mediterranean basin experienced drought any given year [4], and 36% of years produce no harvest in regions of Northern Mesopotamia [5]
 
-![max grain]({{site.baseurl}}/assets/img/cult_conun_max_grain.png){:class="img-responsive" zoom="2%"} ; conservatively high as well, given that droughts and famines lasting for shorter periods of time have caused significant damage to sophisticated societies [6]
+`g_max = 8C` ; conservatively high as well, given that droughts and famines lasting for shorter periods of time have caused significant damage to sophisticated societies [6]
