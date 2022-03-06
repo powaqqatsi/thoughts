@@ -12,7 +12,7 @@ Insert joke here relating to why [Joseph](https://www.thetorah.com/article/josep
 
 And lo and behold, here's the deeply flawed essay:
 
-# The Cultivation Conundrum (or Planting Problem)
+## The Cultivation Conundrum (or Planting Problem)
 
 Discussing investments the other day with a friend of mine, we dove into the concept of a liquid-to-illiquid asset ratio. That is, the breakdown of an individual’s material wealth into buckets of items which can, or can not, be transferred easily into cash. At a glance, it appeared that a large portion of the US population’s wealth is tied up in illiquid assets, such as homes, cars, and 401ks. Why is this interesting? Because this ratio influences the way we utilize our more liquid assets. If you had 90% of your wealth locked away in a vault, how would you spend and invest the remaining 10%? How would your behavior differ if you had 50% of your wealth tied up? Behavioral economists would likely say that this ratio impacts your risk appetite when investing, which [matters](https://www.nngroup.com/articles/prospect-theory/).
 
@@ -36,13 +36,13 @@ Of course, there’s also a constraint in the maximum amount of grain which a so
 
 For a rational actor seeking grain (read “wealth”) maximization, finding an optimal strategy is fairly simple. Whichever grain utilization function, either store or cultivate, has the greater EV (“Expected Value”) should be the function used in full. Calculating these EVs, we get:
 
-![expected value]({{site.baseurl}}/assets/img/expected_value.png){:class="img-responsive" zoom="20%"}
+![expected value]({{site.baseurl}}/assets/img/expected_value.png){:class="img-responsive" zoom="5%"}
 
-If ![expected inequality]({{site.baseurl}}/assets/img/expected_inequality.png){:class="img-responsive" zoom="20%"}, then an optimal strategy would be to store all of the grain, otherwise the grain should be used fully for cultivation. Of course, losing the entirety of one’s grain in a poor harvest would be painful. But, it wouldn’t necessarily be a death sentence either. Individuals engaged in larger communities could have had the fallback option of trading with neighbors when times were rough.
+If ![expected inequality]({{site.baseurl}}/assets/img/expected_inequality.png){:class="img-responsive" zoom="2%"}, then an optimal strategy would be to store all of the grain, otherwise the grain should be used fully for cultivation. Of course, losing the entirety of one’s grain in a poor harvest would be painful. But, it wouldn’t necessarily be a death sentence either. Individuals engaged in larger communities could have had the fallback option of trading with neighbors when times were rough.
 
 While large harvests, and even larger stockpiles, likely excited our ancestors, an even more compelling communal objective would have been the maximization of their likelihood of survival as a group. Formally speaking, survival entails that an isolated society continually maintain an amount of grain above zero. We can call this the “survival clause”:
 
-![survival clause]({{site.baseurl}}/assets/img/survival_clause.png){:class="img-responsive" zoom="20%"}
+![survival clause]({{site.baseurl}}/assets/img/survival_clause.png){:class="img-responsive" zoom="5%"}
 
 With longevity as the imperative, what would our optimal strategy become? 
 
@@ -54,7 +54,7 @@ Simulating this model over the full spectrum of possible strategies, we can find
 
 ![graph1]({{site.baseurl}}/assets/img/cult_conun_graph1.png){:class="img-responsive" zoom="20%"}
 
-Our optimal is somewhat of a plateau, with strategies ![prob range]({{site.baseurl}}/assets/img/cult_conun_prob_range.png){:class="img-responsive" zoom="20%"}  yielding very similar results and a fairly steep drop-off of survival rates outside of that zone. Testing out different g_0 values, we can see similar forms emerging. 
+Our optimal is somewhat of a plateau, with strategies ![prob range]({{site.baseurl}}/assets/img/cult_conun_prob_range.png){:class="img-responsive" zoom="2%"}  yielding very similar results and a fairly steep drop-off of survival rates outside of that zone. Testing out different g_0 values, we can see similar forms emerging. 
 
 ![graph2]({{site.baseurl}}/assets/img/cult_conun_graph2.png){:class="img-responsive" zoom="20%"}
 ![graph3]({{site.baseurl}}/assets/img/cult_conun_graph3.png){:class="img-responsive" zoom="20%"}
@@ -63,7 +63,7 @@ Our optimal is somewhat of a plateau, with strategies ![prob range]({{site.baseu
 
 As the starting grain supply increases, our optimal plateau shifts further to the left with an ever increasing survival rate. The width of these plateaus remain relatively thin though, at around 10-20%.
 
-If this model is to be trusted as an approximation of reality, then the ancients had a serious problem on their hands. Since ![expected yield inequality]({{site.baseurl}}/assets/img/expected_yield_inequality.png){:class="img-responsive" zoom="20%"}, an individual seeking more grain (read “wealth”) would have been incentivized to plant all of their grain. As we can see above though, communities prioritizing sustained survival would have needed much lower planting rates. This wide gulf in optimal behavior manifests a textbook [coordination problem](https://conceptually.org/concepts/coordination-problems), where leaving everyone to act on their own self-interest produces a worse outcome for all.  Problems like these make strong cases for centralized and cooperative decision making. That is, communities coming together to determine their own collective course of action.
+If this model is to be trusted as an approximation of reality, then the ancients had a serious problem on their hands. Since ![expected yield inequality]({{site.baseurl}}/assets/img/expected_yield_inequality.png){:class="img-responsive" zoom="2%"}, an individual seeking more grain (read “wealth”) would have been incentivized to plant all of their grain. As we can see above though, communities prioritizing sustained survival would have needed much lower planting rates. This wide gulf in optimal behavior manifests a textbook [coordination problem](https://conceptually.org/concepts/coordination-problems), where leaving everyone to act on their own self-interest produces a worse outcome for all.  Problems like these make strong cases for centralized and cooperative decision making. That is, communities coming together to determine their own collective course of action.
 
 Historically speaking, plenty of societies have undermined individual agricultural interests. May this have been for a collective good? Ancient Egypt had intensely socialized agricultural production, with government bureaucrats directing farmers/serfs on what quantities of which crops to plant where. And when the yield came, what price it should even be sold at. In a different form, we can see the Israelis in the Old Testament exhibit similarly communal behavior. The second chapter in what amounts to be their very first codified book of law, Leviticus, is dedicated to describing grain offerings. Later in Leviticus it is ordered that Israelis, “bring the first sheaf of your harvest to the priest...”, and seven weeks after that, “present a new grain offering...” (Leviticus 23) Probably the most staggering of anti-competitive, communal decisions which the Ancient Israelis made though was the “sabbatical” year they gave their farmland. Once every seven years, they decided to give their lands a complete rest (Leviticus 25). For the individual land owner, it must’ve been tempting to plant and disrupt these quiet, but lucrative, grain markets. Unified though as a community, these policies likely enhanced yield consistency for all.
 
@@ -83,21 +83,21 @@ Did the rise of agriculture actually bring about an existential conflict of inte
 
 [6] “List of Famines.” Wikipedia, Wikimedia Foundation, 15 June 2019, en.wikipedia.org/wiki/List_of_famines.
 
-# Appendix
+## Appendix
 
-## Explanation of Variable Inputs to the Eastern Mediterranean Cultivation Conundrum
+# Explanation of Variable Inputs to the Eastern Mediterranean Cultivation Conundrum
 
-### Base Cultivation Conundrum Model:
+# Base Cultivation Conundrum Model:
 
 ![base cult conun model]({{site.baseurl}}/assets/img/base_cult_conun_model.png){:class="img-responsive" zoom="20%"}
 
-### Variables:
+# Variables:
 
-![r value]({{site.baseurl}}/assets/img/cult_conun_r.png){:class="img-responsive" zoom="20%"} ; rate of decay for traditionally stored grains in tropical countries [1]
+![r value]({{site.baseurl}}/assets/img/cult_conun_r.png){:class="img-responsive" zoom="2%"} ; rate of decay for traditionally stored grains in tropical countries [1]
 
-![m value]({{site.baseurl}}/assets/img/cult_conun_m.png){:class="img-responsive" zoom="20%"} ; the most time-consuming of parameters to deduce – 
+![m value]({{site.baseurl}}/assets/img/cult_conun_m.png){:class="img-responsive" zoom="2%"} ; the most time-consuming of parameters to deduce – 
 (seed yield/ plant of Triticum vulgare) * (typical germination rate of Triticum vulgare) * (grain yield ratio of Triticum boeoticum : Triticum vulgare) = (110 seeds/plant [2]) * (.8 plants/seed [2]) * (.1 seeds/ seed [3]) ;  Note: Triticum boeoticum is an ancient wheat known as “einkorn”, and Triticum vulgare is modern common wheat
 
-![prob yield]({{site.baseurl}}/assets/img/cult_conun_prob_yield.png){:class="img-responsive" zoom="20%"} ; conservatively high estimate given two facts: over the past ~1,000 years, 29% of the Mediterranean basin experienced drought any given year [4], and 36% of years produce no harvest in regions of Northern Mesopotamia [5]
+![prob yield]({{site.baseurl}}/assets/img/cult_conun_prob_yield.png){:class="img-responsive" zoom="2%"} ; conservatively high estimate given two facts: over the past ~1,000 years, 29% of the Mediterranean basin experienced drought any given year [4], and 36% of years produce no harvest in regions of Northern Mesopotamia [5]
 
-![max grain]({{site.baseurl}}/assets/img/cult_conun_max_grain.png){:class="img-responsive" zoom="20%"} ; conservatively high as well, given that droughts and famines lasting for shorter periods of time have caused significant damage to sophisticated societies [6]
+![max grain]({{site.baseurl}}/assets/img/cult_conun_max_grain.png){:class="img-responsive" zoom="2%"} ; conservatively high as well, given that droughts and famines lasting for shorter periods of time have caused significant damage to sophisticated societies [6]
