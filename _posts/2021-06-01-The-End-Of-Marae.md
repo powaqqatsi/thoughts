@@ -126,7 +126,7 @@ Software aside, this would have actually been a bit pricey to run today. That's 
 
 ***Game Engine SDK* **
 
-We'd need a couple SDKs to integrate our platform with the world's most popular 3D engines. Each of these would serve two core purposes. First, they'd give us programmatic means to adjust the virtual camera pose in real-time. Second, we'd surface our library of pre-mapped spaces through them. With this, developers and creators could design their virtual scenes atop the Boston Common, Central Park, college campuses, or any other popular outdoor space using a familiar workflow.
+We'd need a couple SDKs to integrate our platform with the world's most popular 3D engines. Each of these would serve two core purposes. First, they'd give us programmatic means to adjust the virtual camera pose in real-time. Second, we'd surface our library of pre-mapped spaces through them. With this, developers and creators could design their virtual scenes atop the Boston Common, Central Park, college campuses, or any other popular outdoor space using a familiar workflow.
 
 Taking Unity as an example, this first bit of functionality could be achieved by modifying the [ARSessionOrigin](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@1.0-preview.8/api/UnityEngine.XR.ARFoundation.ARSessionOrigin.html)'s camera setter function. Specifically, we'd add a driver script to the component which would send requests to our cloud localization solution.
 
@@ -134,7 +134,7 @@ Actually creating and publishing an experience on Marae would have been much lik
 
 ***Cloud Hosting and Streaming* **
 
-In order to maximize the scalability of our platform, we'd need to host and stream published experiences on cloud infrastructure. We considered using [AWS Gamelift](https://aws.amazon.com/gamelift/), or even spinning up a proprietary solution as some [other companies have](https://eagle3dstreaming.com/), to accomplish this.
+In order to maximize the scalability of our platform, we'd need to host and stream published experiences on cloud infrastructure. We considered using [AWS Gamelift](https://aws.amazon.com/gamelift/), or even spinning up a proprietary solution as some [other companies have](https://eagle3dstreaming.com/), to accomplish this.
 
 The [rollout of 5G](https://newsroom.cisco.com/press-release-content?type=webcontent&articleId=2055169) was a key trend for us, since AR streaming has such massive network requirements. These needs are somewhat analogous to the needs of [cloud gaming](https://newsroom.cisco.com/press-release-content?type=webcontent&articleId=2055169), which has only just recently begun [flirting with mobile](https://www.pcmag.com/how-to/how-to-play-xbox-games-on-your-phone-with-microsoft-xcloud) and requires a great connection.
 
