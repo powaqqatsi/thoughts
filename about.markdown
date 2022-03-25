@@ -6,22 +6,22 @@ permalink: /about/
 
 Hi there, thanks for checking out my site. I hope you're finding some ideas that make your wheels turn.
 
-I'm a technically-skilled Humanist who believes that we are living in an incredible period of transition en route to the Singularity. Incredible, not like great or wonderful, but instead as its most literal definition. In-credible, not credible, unbelievable. The trends of human (and in a more meta-sense, the universe's) innovation, applauded today for getting us planes, cars, computers, and the internet has only just begun. It's easy to consider today the apex, since our only frame of reference is the past. But, a couple thousand years from now 'intelligent beings' will be looking back at us with a gaze more foreign than us toward the Romans.
+I'm a technically-skilled Humanist who believes that we are living in an incredible period of transition en route to the "Singularity". Quotes here, because I'm referring to an event that's a little different from the [Technological Singularity](https://en.wikipedia.org/wiki/Technological_singularity). But we'll get to that.
 
-In pursuit of shaping these trends, I've twice now found myself on the ground floor, or more fittingly - the launching pad, of extremely consequential threads of innovation. Once, as the Founder of an Augmented Reality company working to unlock the potential of the medium in a socially responsible way. And secondly, creating Machine Learning systems at a Biotech startup which will dramatically alter the Personalized/Regenerative Medicine space.
+I say "incredible", not like great or wonderful, but instead as its most literal definition. In-credible, not credible, hard to believe. The trends of human (and in a more meta-sense, the universe's) innovation, applauded today for getting us planes, cars, computers, and the internet has only just begun. It's easy to consider today the apex, since our only frame of reference is the past. But, zoom out from an exponential curve and you'll see the section you had been focused on now looks eerily flat.
 
-Paragraph on change outside of tech? - Pax Americana, - Technical changes are more than just new apps on our devices, but rather systemic alterations to the fabric of the reality we live within.
+This is why, in a couple hundred years the beings of the world will be looking back at us with a gaze more foreign than us to the Romans. Hard to believe, right? Consider this though. That statement would've been true for many in the 16 and 1700s. Assuming an exponential, it's even more true for us today.
 
-### Meta Purpose, etc
+In pursuit of shaping these ever-growing waves, I've twice now found myself on the ground floor, or more fittingly - the launching pad, of extremely consequential threads of innovation. Once, as the [Founder](https://powaqqatsi.github.io/thoughts/2021/06/01/The-End-Of-Marae.html) of an Augmented Reality company aiming to shatter the ceiling of what's fundamentally possible in the medium (and in turn inject my values into it). And currently, as an engineer building Machine Learning systems for a Biotech startup which will dramatically alter the Personalized/Regenerative Medicine space.
 
-I hope to sway the future. Reiterating known ideas won't do that. Developing better proofs won't do that. I think the guiding light is - how can I convince people like [insert_intelligent_coworker] that Yuval Harari isn't pessimistic, but rather, is actually optimistic?? What is not being understood? These are smart people, after all. Maybe a distance from power behaving "optimally" i.e. aggressively? Maybe a new perspective of safety, risk-aversion, etc since the birth of police states and incredibly certain lives? Maybe a shift of ethics is needed to point out the gaping holes in startup, innovation, etc buzz? <- feel like this is covered quite well, actually.
+Technical change is more than just new apps on our devices, but rather systemic alterations to the fabric of reality we live within. Notably, it has tended to bring us closer. Accents, cultures, and opinions seem to flatten and merge, as viral memes now have the channels to tear across our ecosystem of ideas. When does this flattening stop? Who has the power to spread these memes, or distort the ecosystem our ideas live within?
 
-I'd like to add novel, contrarian ideas into the world which will add value by aiding in better decision making.
+I worry that these trends won't stop, and that the diversity of consciousness we have today will eventually merge into one. The "Singularity". Either we're strapped into [BMIs](https://youtu.be/2rXrGH52aoM) to the point of no true individual willpower, or [AGI](https://en.wikipedia.org/wiki/Artificial_general_intelligence) has made humanity redundant (and eventually eliminated).
 
-Outline my fear, and develop my hope. 
+I'm convinced a day will come when the light of the human race, our free spirit, goes out.
 
-My fear - A day will come when the light of the human race, our free spirit, goes out
+Bummer, right? Well I hope I'm wrong.
 
-Aiming to become an optimist - in the simplest form of the word - anticipating a positive future.
+That's actually why I've started this thing. To outline my fear and discover my hope. Fleshing out these ideas with you, we'll find gaps in my reasoning. A crucial enough gap, and we've got Jason thinking there's no extinction event on the distant horizon. :)
 
-
+And if not, we'll have a little more urgency to figure out the best path forward.
