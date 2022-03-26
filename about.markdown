@@ -22,6 +22,6 @@ I'm convinced a day will come when the light of the human race, our free spirit,
 
 Bummer, right? Well I hope I'm wrong.
 
-That's actually why I've started this thing. To outline my fear and discover my hope. Fleshing out these ideas with you, we'll find gaps in my reasoning. A crucial enough gap, and we've got Jason thinking there's no extinction event on the distant horizon. :)
+That's actually why I've started this thing. To outline my fear and discover my hope. Fleshing out these ideas with you, we'll find gaps in my reasoning. A crucial enough gap, and we've got Jason thinking there's no extinction event on the horizon. :)
 
-And if not, we'll have a little more urgency to figure out the best path forward.
+Otherwise, we'll have a little more urgency to figure out the best path forward.
