@@ -10,7 +10,7 @@ I'm a technically-skilled Humanist who believes that we are living in an incredi
 
 I say "incredible", not like great or wonderful, but instead as its most literal definition. In-credible, not credible, hard to believe. The trends of human (and in a more meta-sense, the universe's) innovation, applauded today for getting us computers, planes, cars, the internet, and electricity itself has only just begun. It's easy to consider today the apex, since our only frame of reference is the past. But, zoom out from an exponential curve and you'll see the section you had been focused on now looks eerily insignificant.
 
-This is why, in a few hundred years the beings of the world will be looking back at us with a gaze more foreign than us to the Romans. Hard to believe, right? Consider this though. That statement would've been true for us even if we lived in the 16 and 1700s - a world without any of those inventions mentioned above. Assuming an exponential, the Roman-familiarity-litmus-test is even more true for us today.
+This is why, in a few hundred years the beings of the world will be looking back at us with a gaze more foreign than us to the Romans. Hard to believe, right? Consider this though. That same exact statement would've been true for those living in the 16 and 1700s - a world without any of the inventions mentioned above. Assuming an exponential, the Roman-familiarity-litmus-test is even more true for us today.
 
 In pursuit of shaping these ever-growing waves, I've twice now found myself on the ground floor, or more fittingly - the launching pad, of extremely consequential threads of innovation. Once, as the [Founder](https://powaqqatsi.github.io/thoughts/2021/06/01/The-End-Of-Marae.html) of an Augmented Reality company aiming to shatter the ceiling of what's fundamentally possible in the medium (and in turn inject my values into it). And currently, as an engineer building Machine Learning systems for a Biotech startup which will dramatically alter the Personalized/Regenerative Medicine space.
 
@@ -22,6 +22,6 @@ I'm convinced a day will come when the light of the human race, our free spirit,
 
 Bummer, right? Well I hope I'm wrong.
 
-That's actually why I've started this thing. To outline my fear and discover my hope. Fleshing out these ideas with you, we'll find gaps in my reasoning. A crucial enough gap, and we've got Jason thinking there's no extinction event on the horizon. :)
+That's actually why I've started this thing- to outline my fear and discover my hope. Fleshing out these ideas with you, we'll find gaps in my reasoning. A crucial enough gap, and I'll have you to thank for guiding me toward genuine optimism.
 
-Otherwise, we'll have a little more urgency to figure out the best path forward.
+Otherwise, we'll have a little more urgency and a rock-solid foundation to figure out the best way forward.
